@@ -1,0 +1,52 @@
+﻿{
+  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "deploymentId": {
+      "value": "lpd-sitecoredeploy-dev-rg"
+    },
+    "location": {
+      "value": "North Europe"
+    },
+    "sqlServerName": {
+      "value": "lpd-sitecore-dev-sql"
+    },
+    "coreSqlDatabaseName": {
+      "value": "lpd-sitecore-core-dev-db"
+    },
+    "masterSqlDatabaseName": {
+      "value": "lpd-sitecore-master-dev-db"
+    },
+    "webSqlDatabaseName": {
+      "value": "lpd-sitecore-web-dev-db"
+    },
+    "formsSqlDatabaseName": {
+      "value": "lpd-sitecore-forms-dev-db"
+    },
+    "sqlServerLogin": {
+      "value": "lpdba"
+    },
+    "singleHostingPlanName": {
+      "value": "lpd-sitecore-single-dev-asp"
+    },
+    "singleHostingPlanSkuName": {
+      "value": "B2"
+    },
+    "singleWebAppName": {
+      "value": "lpd-sitecore-single-dev-web"
+    },
+    "singleMsDeployPackageUrl": {
+      "value": "https://sitecorest.blob.core.windows.net/sitecore/Sitecore%209.0.1%20rev.%20171219%20(Cloud)_single.scwdp.zip?st=2018-11-20T12%3A14%3A05Z&se=2018-11-30T12%3A14%3A00Z&sp=rl&sv=2018-03-28&sr=c&sig=ZxyQWY8o%2FS6SsJfREJI402lwmJLBGHGjaGZ8l5E%2FCkU%3D"
+    },
+    "searchServiceName": {
+      "value": "lpd-sitecore-dev-search"
+    },
+    "applicationInsightsName": {
+      "value": "lpd-sitecore-dev-ai"
+    },
+    "applicationInsightsDataVolumeCap": {
+      "value": "1.0"
+    }
+
+  }
+}
